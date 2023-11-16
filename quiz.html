@@ -1,0 +1,140 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style2.css">
+    <title>Quiz Clima Cambio</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.3.0/dist/sweetalert2.all.min.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+  </head>
+  <header id="bodyheader" style="background-color: lightseagreen; color: #fff;">
+    <nav id="navbar">
+        <div class="container">
+            <h1 class="logo"><a href="index.html">Clima<span>Cambio</span></a></h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="donaciones.html">Donaciones</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a class="current" href="quiz.html">Quiz</a></li>
+                <li><a href="preguntas.html">Preguntas frecuentes</a></li>
+            </ul>
+        </div>
+</nav>
+</header>
+  
+  <body>
+    <h1 class="animate__animated animate__bounce">Clima Cambio </h1>
+    <h1 class="animate__animated animate__bounce"> Quiz</h1>
+    <div class="contenedor-imagen">
+
+        <a href="https://marianodemartino.github.io/Clima-Cambio-26-10/index.html" target="_blank">
+            <img src="img/logochetado.png" alt="climacambio">
+        </a>
+    </div>
+    <style>
+      * {
+        transition: all 0.3s;
+      }
+  
+      body {
+        background: lightseagreen;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        font-family: calibri;
+        font-size: 120%;
+      }
+  
+      .contenedor {
+        width: 98vw;
+        height: 97vh;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -30%;
+
+      }
+      h1{
+        margin: 0%;
+        color: white;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        font-size: 70px;
+    }
+        img{
+            width: 300px;
+            height: 300px;
+        }
+      .encabezado {
+        position: relative;
+        background: white;
+        min-width: 300px;
+        width: 70%;
+        max-width: 600px;
+        padding: 10px;
+      }
+  
+      .categoria {
+        opacity: 0.3;
+        text-align: left;
+      }
+  
+      .pregunta {
+        padding: 10px;
+      }
+  
+      .imagen {
+        object-fit: cover;
+        height: 0px;
+        width: 0px;
+      }
+  
+      .btn {
+        background: white;
+        width: 60%;
+        max-width: 550px;
+        padding: 10px;
+        margin: 5px;
+        cursor: pointer;
+      }
+      
+      .btn:hover {
+        transform: scale(1.05);
+      }
+      
+      .numero{
+        position: absolute;
+        opacity:0.3;
+        top: 10px;
+        right: 10px;
+      }
+      
+      .puntaje{
+        padding:10px;
+        color:white;
+      }
+      
+    </style>
+  
+    <div class="contenedor">
+      <div class="puntaje" id="puntaje"></div>
+      <div class="encabezado">
+        <div class="categoria" id="categoria">
+        </div>
+        <div class="numero" id="numero"></div>
+        <div class="pregunta" id="pregunta">
+        </div>
+        <img src="#" class="imagen" id="imagen">
+      </div>
+      <div class="btn" id="btn1" onclick="oprimir_btn(0)"></div>
+      <div class="btn" id="btn2" onclick="oprimir_btn(1)"></div>
+      <div class="btn" id="btn3" onclick="oprimir_btn(2)"></div>
+      <div class="btn" id="btn4" onclick="oprimir_btn(3)"></div>
+      
+      <script src="index.js"></script>
+    </div>
+  
+  </body>
+  </html>

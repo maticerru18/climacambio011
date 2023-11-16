@@ -1,0 +1,32 @@
+[
+    {
+        "categoria": "Animales En Peligro de Extinción",
+        "pregunta": "¿Que tipo de especie está en peligro de extinción?",
+        "respuesta": "Osos Polares",
+        "incorrecta1": "Leon Dorado",
+        "incorrecta2": "Zebras",
+        "incorrecta3": "Gallinas",
+        "imagen": "https://services.meteored.com/img/article/que-pasaria-en-la-tierra-si-la-antartida-se-derritiera-por-completo-1691681660964_768.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Buenos Hábitos para un Mundo Mejor",
+        "pregunta": "¿Cuáles son las prácticas y hábitos que podemos adoptar en nuestra vida para contribuir al mejor funcionamiento del medio ambiente?",
+        "respuesta": "Todas son Correctas",
+        "incorrecta1": "Uso responsable del agua",
+        "incorrecta2": "Reducción del consumo de energía",
+        "incorrecta3": "Conservación de la biodiversidad",
+        "imagen": "https://s1.significados.com/foto/earth-11015-1920-41.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Consecuencias del Cambio Climático",
+        "pregunta": "¿Cuales son las consecuencias del Cambio Climático?",
+        "respuesta": "Todas son Correctas",
+        "incorrecta1": "Eventos climáticos extremos",
+        "incorrecta2": "Desglaciación y aumento del nivel del mar",
+        "incorrecta3": "Aumento de las temperaturas",
+        "imagen": "https://parabienoparamal.com/wp-content/uploads/2022/02/Feb-Semana-1-Nota-1--930x620.jpg",
+        "objectFit": "cover"
+    }
+]
